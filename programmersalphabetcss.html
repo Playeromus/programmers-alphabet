@@ -114,3 +114,116 @@ p {
 </pre>
 <br>
 <p style="margin:30px"><a href="CSS_code_showcase/CSS_Elemental.html" target="_blank">Result</a></p>
+<br>
+<br>
+<hr style="width:50%">
+<br>
+<br>
+<br>
+<p style="font-size:30px; text-align:center">CSS ID Selectors</p>
+<br>
+<br>
+<pre style="font-size:15px; text-align:center">You can also have the Selector be an id, which you can input into any element in the body of the code.
+An example being:
+
+&#10094;!DOCTYPE html>
+&#10094;html>
+&#10094;head>
+&#10094;style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+&#10094;/style>
+&#10094;/head>
+&#10094;body>
+
+&#10094;p id="para1">Hello World!&#10094;/p>
+&#10094;p>This paragraph is not affected by the style.&#10094;/p>
+</pre>
+<br>
+<p style="margin:30px"><a href="CSS_code_showcase/CSS_ID.html" target="_blank">Result</a></p>
+<br>
+<br>
+<hr style="width:50%">
+<br>
+<br>
+<br>
+<p style="font-size:30px; text-align:center">CSS Class Selectors</p>
+<br>
+<br>
+<pre style="font-size:15px; text-align:center">The Class Selectors selects an HTML element with a specific class attribute.
+In other words you make the classes, the classes can include attributes such as: red, 60%, 50px, etc.
+It works similiarly to id's, and may be used in the same way, although classes have more effects you may choose to use.
+An example of a Class Selector being used:
+
+  &#10094;!DOCTYPE html>
+&#10094;html>
+&#10094;head>
+&#10094;style>
+.center {
+  text-align: center;
+  color: red;
+}
+&#10094;/style>
+&#10094;/head>
+&#10094;body>
+
+&#10094;h1 class="center">Red and center-aligned heading&#10094;/h1>
+&#10094;p class="center">Red and center-aligned paragraph.&#10094;/p> 
+
+&#10094;/body>
+&#10094;/html>
+
+<p style="margin:30px"><a href="CSS_code_showcase/CSS_Class1.html" target="_blank">Result</a></p>
+  
+You can also specify that a specific element can be affected by a class.
+An example using this:
+
+  &#10094;!DOCTYPE html>
+&#10094;html>
+&#10094;head>
+&#10094;style>
+p.center {
+  text-align: center;
+  color: red;
+}
+&#10094;/style>
+&#10094;/head>
+&#10094;body>
+
+&#10094;h1 class="center">This heading will not be affected&#10094;/h1>
+&#10094;p class="center">This paragraph will be red and center-aligned.&#10094;/p> 
+  
+<p style="margin:30px"><a href="CSS_code_showcase/CSS_Class2.html" target="_blank">Result</a></p>
+  
+You may also combine separated classes.
+Such as:
+
+  &#10094;!DOCTYPE html>
+&#10094;html>
+&#10094;head>
+&#10094;style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+&#10094;/style>
+&#10094;/head>
+&#10094;body>
+
+&#10094;h1 class="center">This heading will not be affected&#10094;/h1>
+&#10094;p class="center">This paragraph will be red and center-aligned.&#10094;/p>
+&#10094;p class="center large">This paragraph will be red, center-aligned, and in a large font-size.&#10094;/p> 
+
+&#10094;/body>
+&#10094;/html>
+
+<p style="margin:30px"><a href="CSS_code_showcase/CSS_Class3.html" target="_blank">Result</a></p>
+
+</body>
+</html>
